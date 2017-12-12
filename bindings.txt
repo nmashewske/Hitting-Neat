@@ -1,0 +1,17 @@
+BTN_A=a,
+BTN_B=b,
+BTN_X=x,
+BTN_Y=y,
+BTN_TL=lb,
+BTN_TR=rb,
+BTN_TL2=lt,
+BTN_TR2=rt,
+BTN_SELECT=back,
+BTN_START=start,
+ABS_HAT0Y=dpad_y,
+ABS_HAT0X=dpad_x 
+
+BTN_A=a,BTN_B=b,BTN_X=x,BTN_Y=y,BTN_TL=lb,BTN_TR=rb,BTN_TL2=lt,BTN_TR2=rt,BTN_SELECT=back,BTN_START=start
+ABS_HAT0Y=dpad_y,ABS_HAT0X=dpad_x 
+
+sudo xboxdrv --evdev /dev/input/event17 --evdev-keymap BTN_A=a,BTN_B=b,BTN_X=x,BTN_Y=y,BTN_TL=lb,BTN_TR=rb,BTN_TL2=lt,BTN_TR2=rt,BTN_SELECT=back,BTN_START=start --evdev-absmap ABS_HAT0Y=dpad_y,ABS_HAT0X=dpad_x --mimic-xpad
