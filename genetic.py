@@ -31,7 +31,6 @@ import visualize
 import mem
 import joy
 import time
-import pyscreenshot as ImageGrab
 
 buttonsSupers = [ '4', '2', '6', '8', '1', '3', '7', '9', '5x', '5y', 'i', 'o', 'p', 'j', 'k', 'l', 'q', 'b', 'h', 'g', 'w', 'z', 's', 't', 'y']
 buttonsNoSupers = [ '4', '2', '6', '8', '1', '3', '7', '9', '5x', '5y', 'i', 'o', 'p', 'j', 'k', 'l', 'q', 'b', 'h', 'g', 'w', 'z', 's', 't', 'y']
