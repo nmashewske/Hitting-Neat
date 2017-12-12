@@ -62,8 +62,8 @@ def eval_genomes(genomes, config):
         comboDamage = 0
         while(True):
             seconds = time.time()
-            #output = net.activate( (i,) )
-            output = net.activate( list(ImageGrab.grab(bbox=(0,300, 960, 850)).resize([25,25]).convert('L').getdata() ) )
+            output = net.activate( (i,) )
+            #output = net.activate( list(ImageGrab.grab(bbox=(0,300, 960, 850)).resize([25,25]).convert('L').getdata() ) )
             joy.pressCombination(output, controller)
             currentStage = mem.comboStage1(pid)
             currentDamage = mem.comboDamage1(pid)
